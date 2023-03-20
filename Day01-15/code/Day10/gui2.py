@@ -1,3 +1,4 @@
+#coding:utf-8
 """
 使用tkinter创建GUI
 - 使用画布绘图

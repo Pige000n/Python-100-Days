@@ -1,3 +1,4 @@
+#coding:utf-8
 """
 使用tkinter创建GUI
 - 顶层窗口
@@ -9,7 +10,6 @@ Version: 0.1
 Author: 骆昊
 Date: 2018-03-14
 """
-
 import tkinter
 import tkinter.messagebox
 

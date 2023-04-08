@@ -3,6 +3,7 @@
 发现原先选择并不优或达不到目标时，就退回一步重新选择。
 经典问题：骑士巡逻
 """
+
 import os
 import sys
 import time
@@ -47,3 +48,29 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# 
+# 输入：1 -2 3 5 -3 2
+
+# 输出：8
+
+# 输入：0 -2 3 5 -1 2
+
+# 输出：9
+
+# 输入：-9 -2 -3 -5 -3
+
+# 输出：-2
+# 
+# def main():
+#     items = list(map(int, input().split()))
+#     overall = partial = items[0]
+#     for i in range(1, len(items)):
+#         partial = max(items[i], partial + items[i])
+#         overall = max(partial, overall)
+#         #每次取一个连续的几个值求和partial,与当前最大值overall进行比较,取最大值赋给overall
+#     print(overall)
+
+
+# if __name__ == '__main__':
+#     main()
